@@ -1,0 +1,7 @@
+[mysqld]
+# Custom MariaDB settings go here
+# For example:
+# max_connections=500
+# innodb_buffer_pool_size=256M
+
+log-error=/dev/stderr

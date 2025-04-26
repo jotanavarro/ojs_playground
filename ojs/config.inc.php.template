@@ -1,0 +1,26 @@
+[general]
+installed = On
+base_url = http://localhost:8080
+session_lifetime = 30
+
+[database]
+driver = mysqli
+host = ${DB_HOST}
+username = ${DB_USERNAME}
+password = ${DB_PASSWORD}
+name = ${DB_DATABASE}
+
+[email]
+smtp = On
+smtp_server = ${SMTP_SERVER}
+smtp_port = ${SMTP_PORT}
+smtp_auth = ${SMTP_AUTH}
+smtp_username = ${SMTP_USERNAME}
+smtp_password = ${SMTP_PASSWORD}
+smtp_secure = ${SMTP_SECURE}
+
+[files]
+files_dir = /var/www/html/files
+
+[security]
+force_login_ssl = Off
